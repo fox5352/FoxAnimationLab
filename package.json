@@ -1,7 +1,7 @@
 {
 
   "name": "foxanimationlab",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "a collection of animations i like",
   "main": "main.js",
   "type": "module",

@@ -6,11 +6,13 @@
 function staggerLoad(selector, duration = 250) {
   // get data
   const tag = document.querySelector(selector);
-  tag.style.position = "relative";
   tag.style.transition = "all 250ms ease-in-out 1s";
 
   const text = tag.dataset.text;
 
+  // clear
+  tag.innerHTML = "";
+  // append
   for (let index = 0; index < text.length; index++) {
     tag.appendChild(wrapChar(text[index], index, duration));
   }
