@@ -1,9 +1,9 @@
 {
   "name": "foxanimationsuite",
   "version": "0.0.1",
-  "description": "a collection of animations i like",
-  "main": "main.js",
+  "description": "My small set of animations",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
