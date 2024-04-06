@@ -1,9 +1,11 @@
 {
+
   "name": "foxanimationlab",
   "version": "0.0.2",
   "description": "a collection of animations i like",
   "main": "main.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

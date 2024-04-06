@@ -8,7 +8,7 @@
  * @param {number} [iterationSpeed=10] - The speed (in milliseconds) at which each iteration occurs.
  * @param {string} [letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"] - The set of letters to use for scrambling.
  */
-export default function scrambleLoad(selector, 
+function scrambleLoad(selector, 
   delay = 0, 
   iterationSpeed = 10, 
   letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
@@ -45,3 +45,5 @@ export default function scrambleLoad(selector,
     }, delay);
   });
 }
+
+export default scrambleLoad
